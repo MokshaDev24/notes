@@ -1,10 +1,28 @@
-#Notes README.md
-echo .DS_Store .gitignore
-git add
-git commit -m Initial commit
-git remote add origin git@github.com:MokshaDev24/notes.git
-git branch -M main
-git push -u origin main
-cd ~/notes
-echo # Notes> README.md
-echo .DS_Store
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node / general logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Python (if you ever add scripts)
+__pycache__/
+*.py[cod]
+*.env
+.venv/
+venv/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Archives / misc
+*.zip
+*.tar
+*.tar.gz
