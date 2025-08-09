@@ -1,0 +1,10 @@
+#Notes README.md
+echo .DS_Store .gitignore
+git add
+git commit -m Initial commit
+git remote add origin git@github.com:MokshaDev24/notes.git
+git branch -M main
+git push -u origin main
+cd ~/notes
+echo # Notes> README.md
+echo .DS_Store
